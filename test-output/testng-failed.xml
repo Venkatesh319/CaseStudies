@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testscript.TestScript_Nykaa">
+        <methods>
+          <include name="LoginAccount"/>
+          <include name="setup"/>
+          <include name="SearchBox"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TestScript_Nykaa -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

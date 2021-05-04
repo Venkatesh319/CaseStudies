@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Testing]">
+  <listeners>
+    <listener class-name="com.qa.utility.Reporting"/>
+  </listeners>
+  <test name="Functional Testing(failed)">
+    <parameter name="URL" value="https://www.nykaa.com/"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.testscript.TestScript_Nykaa">
+        <methods>
+          <include name="LoginAccount"/>
+          <include name="setup"/>
+          <include name="SearchBox" invocation-numbers="0 1"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TestScript_Nykaa -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [Automation Testing] -->

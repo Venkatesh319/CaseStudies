@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Testing" duration-ms="145179" started-at="2021-05-04T06:46:51Z" finished-at="2021-05-04T06:49:16Z">
+    <groups>
+    </groups>
+    <test name="Functional Testing" duration-ms="145179" started-at="2021-05-04T06:46:51Z" finished-at="2021-05-04T06:49:16Z">
+      <class name="com.qa.testscript.TestScript_Nykaa">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testscript.TestScript_Nykaa@27efef64]" name="setup" is-config="true" duration-ms="66556" started-at="2021-05-04T12:16:51Z" finished-at="2021-05-04T12:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.nykaa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginAccount()[pri:0, instance:com.qa.testscript.TestScript_Nykaa@27efef64]" name="LoginAccount" duration-ms="54500" started-at="2021-05-04T12:17:58Z" finished-at="2021-05-04T12:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAccount -->
+        <test-method status="PASS" signature="SearchBox(java.lang.String)[pri:0, instance:com.qa.testscript.TestScript_Nykaa@27efef64]" name="SearchBox" duration-ms="2150" started-at="2021-05-04T12:19:03Z" data-provider="getData" finished-at="2021-05-04T12:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hand Sanitizer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBox -->
+        <test-method status="PASS" signature="SearchBox(java.lang.String)[pri:0, instance:com.qa.testscript.TestScript_Nykaa@27efef64]" name="SearchBox" duration-ms="1566" started-at="2021-05-04T12:19:05Z" data-provider="getData" finished-at="2021-05-04T12:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchBox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testscript.TestScript_Nykaa@27efef64]" name="teardown" is-config="true" duration-ms="8936" started-at="2021-05-04T12:19:07Z" finished-at="2021-05-04T12:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testscript.TestScript_Nykaa -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- Automation Testing -->
+</testng-results>
